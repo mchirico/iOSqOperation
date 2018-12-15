@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A52BE0AC21C525D400D5DF33 /* Sparse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52BE0AB21C525D400D5DF33 /* Sparse.swift */; };
+		A52BE0B421C527A300D5DF33 /* RequestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52BE0B321C527A300D5DF33 /* RequestTests.swift */; };
+		A52BE0BD21C5283400D5DF33 /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52BE0BC21C5283400D5DF33 /* Request.swift */; };
+		A52BE0BF21C52A5200D5DF33 /* StationToStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52BE0BE21C52A5200D5DF33 /* StationToStation.swift */; };
+		A52BE0C121C52AC100D5DF33 /* RecTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52BE0C021C52AC100D5DF33 /* RecTimer.swift */; };
 		A5713D1121C484C100485DEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5713D1021C484C100485DEB /* AppDelegate.swift */; };
 		A5713D1321C484C100485DEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5713D1221C484C100485DEB /* ViewController.swift */; };
 		A5713D1621C484C100485DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5713D1421C484C100485DEB /* Main.storyboard */; };
@@ -18,6 +23,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A52BE0B621C527A300D5DF33 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5713D0521C484C100485DEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5713D0C21C484C100485DEB;
+			remoteInfo = Qoperation;
+		};
 		A5713D2221C484C400485DEB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A5713D0521C484C100485DEB /* Project object */;
@@ -35,6 +47,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A52BE0AB21C525D400D5DF33 /* Sparse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sparse.swift; sourceTree = "<group>"; };
+		A52BE0B121C527A300D5DF33 /* RequestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RequestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A52BE0B321C527A300D5DF33 /* RequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestTests.swift; sourceTree = "<group>"; };
+		A52BE0B521C527A300D5DF33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52BE0BC21C5283400D5DF33 /* Request.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Request.swift; sourceTree = "<group>"; };
+		A52BE0BE21C52A5200D5DF33 /* StationToStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StationToStation.swift; sourceTree = "<group>"; };
+		A52BE0C021C52AC100D5DF33 /* RecTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecTimer.swift; sourceTree = "<group>"; };
 		A5713D0D21C484C100485DEB /* Qoperation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qoperation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5713D1021C484C100485DEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A5713D1221C484C100485DEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,6 +71,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A52BE0AE21C527A300D5DF33 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5713D0A21C484C100485DEB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -76,12 +102,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A52BE0B221C527A300D5DF33 /* RequestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A52BE0B321C527A300D5DF33 /* RequestTests.swift */,
+				A52BE0B521C527A300D5DF33 /* Info.plist */,
+			);
+			path = RequestTests;
+			sourceTree = "<group>";
+		};
+		A52BE0BB21C5281B00D5DF33 /* Extra */ = {
+			isa = PBXGroup;
+			children = (
+				A52BE0AB21C525D400D5DF33 /* Sparse.swift */,
+				A52BE0BC21C5283400D5DF33 /* Request.swift */,
+				A52BE0BE21C52A5200D5DF33 /* StationToStation.swift */,
+				A52BE0C021C52AC100D5DF33 /* RecTimer.swift */,
+			);
+			path = Extra;
+			sourceTree = "<group>";
+		};
 		A5713D0421C484C100485DEB = {
 			isa = PBXGroup;
 			children = (
+				A52BE0BB21C5281B00D5DF33 /* Extra */,
 				A5713D0F21C484C100485DEB /* Qoperation */,
 				A5713D2421C484C400485DEB /* QoperationTests */,
 				A5713D2F21C484C400485DEB /* QoperationUITests */,
+				A52BE0B221C527A300D5DF33 /* RequestTests */,
 				A5713D0E21C484C100485DEB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -92,6 +140,7 @@
 				A5713D0D21C484C100485DEB /* Qoperation.app */,
 				A5713D2121C484C400485DEB /* QoperationTests.xctest */,
 				A5713D2C21C484C400485DEB /* QoperationUITests.xctest */,
+				A52BE0B121C527A300D5DF33 /* RequestTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,6 +180,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A52BE0B021C527A300D5DF33 /* RequestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A52BE0B821C527A300D5DF33 /* Build configuration list for PBXNativeTarget "RequestTests" */;
+			buildPhases = (
+				A52BE0AD21C527A300D5DF33 /* Sources */,
+				A52BE0AE21C527A300D5DF33 /* Frameworks */,
+				A52BE0AF21C527A300D5DF33 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A52BE0B721C527A300D5DF33 /* PBXTargetDependency */,
+			);
+			name = RequestTests;
+			productName = RequestTests;
+			productReference = A52BE0B121C527A300D5DF33 /* RequestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		A5713D0C21C484C100485DEB /* Qoperation */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A5713D3521C484C400485DEB /* Build configuration list for PBXNativeTarget "Qoperation" */;
@@ -195,6 +262,10 @@
 				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "Michael Chirico";
 				TargetAttributes = {
+					A52BE0B021C527A300D5DF33 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A5713D0C21C484C100485DEB;
+					};
 					A5713D0C21C484C100485DEB = {
 						CreatedOnToolsVersion = 10.1;
 					};
@@ -224,11 +295,19 @@
 				A5713D0C21C484C100485DEB /* Qoperation */,
 				A5713D2021C484C400485DEB /* QoperationTests */,
 				A5713D2B21C484C400485DEB /* QoperationUITests */,
+				A52BE0B021C527A300D5DF33 /* RequestTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A52BE0AF21C527A300D5DF33 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5713D0B21C484C100485DEB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -276,12 +355,24 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A52BE0AD21C527A300D5DF33 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A52BE0B421C527A300D5DF33 /* RequestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A5713D0921C484C100485DEB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A5713D1321C484C100485DEB /* ViewController.swift in Sources */,
+				A52BE0AC21C525D400D5DF33 /* Sparse.swift in Sources */,
+				A52BE0BF21C52A5200D5DF33 /* StationToStation.swift in Sources */,
+				A52BE0C121C52AC100D5DF33 /* RecTimer.swift in Sources */,
 				A5713D1121C484C100485DEB /* AppDelegate.swift in Sources */,
+				A52BE0BD21C5283400D5DF33 /* Request.swift in Sources */,
 				A5713D3F21C484DC00485DEB /* Oper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -305,6 +396,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		A52BE0B721C527A300D5DF33 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5713D0C21C484C100485DEB /* Qoperation */;
+			targetProxy = A52BE0B621C527A300D5DF33 /* PBXContainerItemProxy */;
+		};
 		A5713D2321C484C400485DEB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A5713D0C21C484C100485DEB /* Qoperation */;
@@ -337,6 +433,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A52BE0B921C527A300D5DF33 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWJCYGVG9Z;
+				INFOPLIST_FILE = RequestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cwxstat.rx.RequestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qoperation.app/Qoperation";
+			};
+			name = Debug;
+		};
+		A52BE0BA21C527A300D5DF33 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWJCYGVG9Z;
+				INFOPLIST_FILE = RequestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cwxstat.rx.RequestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qoperation.app/Qoperation";
+			};
+			name = Release;
+		};
 		A5713D3321C484C400485DEB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -574,6 +710,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A52BE0B821C527A300D5DF33 /* Build configuration list for PBXNativeTarget "RequestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A52BE0B921C527A300D5DF33 /* Debug */,
+				A52BE0BA21C527A300D5DF33 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		A5713D0821C484C100485DEB /* Build configuration list for PBXProject "Qoperation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

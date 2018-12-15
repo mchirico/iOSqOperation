@@ -13,13 +13,15 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
-    
+  }
+  
+  func test() {
     let some = Some()
     let runner = Runner()
     
     let oper = Oper()
     oper.someProto = some
     runner.run(operation: oper)
-    
   }
+  
 }
