@@ -1,0 +1,616 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5713D1121C484C100485DEB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5713D1021C484C100485DEB /* AppDelegate.swift */; };
+		A5713D1321C484C100485DEB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5713D1221C484C100485DEB /* ViewController.swift */; };
+		A5713D1621C484C100485DEB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5713D1421C484C100485DEB /* Main.storyboard */; };
+		A5713D1821C484C400485DEB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A5713D1721C484C400485DEB /* Assets.xcassets */; };
+		A5713D1B21C484C400485DEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5713D1921C484C400485DEB /* LaunchScreen.storyboard */; };
+		A5713D2621C484C400485DEB /* QoperationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5713D2521C484C400485DEB /* QoperationTests.swift */; };
+		A5713D3121C484C400485DEB /* QoperationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5713D3021C484C400485DEB /* QoperationUITests.swift */; };
+		A5713D3F21C484DC00485DEB /* Oper.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5713D3E21C484DC00485DEB /* Oper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A5713D2221C484C400485DEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5713D0521C484C100485DEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5713D0C21C484C100485DEB;
+			remoteInfo = Qoperation;
+		};
+		A5713D2D21C484C400485DEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A5713D0521C484C100485DEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5713D0C21C484C100485DEB;
+			remoteInfo = Qoperation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A5713D0D21C484C100485DEB /* Qoperation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Qoperation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5713D1021C484C100485DEB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A5713D1221C484C100485DEB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A5713D1521C484C100485DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A5713D1721C484C400485DEB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A5713D1A21C484C400485DEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A5713D1C21C484C400485DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5713D2121C484C400485DEB /* QoperationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QoperationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5713D2521C484C400485DEB /* QoperationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QoperationTests.swift; sourceTree = "<group>"; };
+		A5713D2721C484C400485DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5713D2C21C484C400485DEB /* QoperationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QoperationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5713D3021C484C400485DEB /* QoperationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QoperationUITests.swift; sourceTree = "<group>"; };
+		A5713D3221C484C400485DEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5713D3E21C484DC00485DEB /* Oper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Oper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5713D0A21C484C100485DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5713D1E21C484C400485DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5713D2921C484C400485DEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5713D0421C484C100485DEB = {
+			isa = PBXGroup;
+			children = (
+				A5713D0F21C484C100485DEB /* Qoperation */,
+				A5713D2421C484C400485DEB /* QoperationTests */,
+				A5713D2F21C484C400485DEB /* QoperationUITests */,
+				A5713D0E21C484C100485DEB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5713D0E21C484C100485DEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5713D0D21C484C100485DEB /* Qoperation.app */,
+				A5713D2121C484C400485DEB /* QoperationTests.xctest */,
+				A5713D2C21C484C400485DEB /* QoperationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5713D0F21C484C100485DEB /* Qoperation */ = {
+			isa = PBXGroup;
+			children = (
+				A5713D1021C484C100485DEB /* AppDelegate.swift */,
+				A5713D3E21C484DC00485DEB /* Oper.swift */,
+				A5713D1221C484C100485DEB /* ViewController.swift */,
+				A5713D1421C484C100485DEB /* Main.storyboard */,
+				A5713D1721C484C400485DEB /* Assets.xcassets */,
+				A5713D1921C484C400485DEB /* LaunchScreen.storyboard */,
+				A5713D1C21C484C400485DEB /* Info.plist */,
+			);
+			path = Qoperation;
+			sourceTree = "<group>";
+		};
+		A5713D2421C484C400485DEB /* QoperationTests */ = {
+			isa = PBXGroup;
+			children = (
+				A5713D2521C484C400485DEB /* QoperationTests.swift */,
+				A5713D2721C484C400485DEB /* Info.plist */,
+			);
+			path = QoperationTests;
+			sourceTree = "<group>";
+		};
+		A5713D2F21C484C400485DEB /* QoperationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A5713D3021C484C400485DEB /* QoperationUITests.swift */,
+				A5713D3221C484C400485DEB /* Info.plist */,
+			);
+			path = QoperationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5713D0C21C484C100485DEB /* Qoperation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5713D3521C484C400485DEB /* Build configuration list for PBXNativeTarget "Qoperation" */;
+			buildPhases = (
+				A5713D0921C484C100485DEB /* Sources */,
+				A5713D0A21C484C100485DEB /* Frameworks */,
+				A5713D0B21C484C100485DEB /* Resources */,
+				A5713D4021C48A4300485DEB /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Qoperation;
+			productName = Qoperation;
+			productReference = A5713D0D21C484C100485DEB /* Qoperation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A5713D2021C484C400485DEB /* QoperationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5713D3821C484C400485DEB /* Build configuration list for PBXNativeTarget "QoperationTests" */;
+			buildPhases = (
+				A5713D1D21C484C400485DEB /* Sources */,
+				A5713D1E21C484C400485DEB /* Frameworks */,
+				A5713D1F21C484C400485DEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5713D2321C484C400485DEB /* PBXTargetDependency */,
+			);
+			name = QoperationTests;
+			productName = QoperationTests;
+			productReference = A5713D2121C484C400485DEB /* QoperationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A5713D2B21C484C400485DEB /* QoperationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5713D3B21C484C400485DEB /* Build configuration list for PBXNativeTarget "QoperationUITests" */;
+			buildPhases = (
+				A5713D2821C484C400485DEB /* Sources */,
+				A5713D2921C484C400485DEB /* Frameworks */,
+				A5713D2A21C484C400485DEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A5713D2E21C484C400485DEB /* PBXTargetDependency */,
+			);
+			name = QoperationUITests;
+			productName = QoperationUITests;
+			productReference = A5713D2C21C484C400485DEB /* QoperationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5713D0521C484C100485DEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Michael Chirico";
+				TargetAttributes = {
+					A5713D0C21C484C100485DEB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A5713D2021C484C400485DEB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A5713D0C21C484C100485DEB;
+					};
+					A5713D2B21C484C400485DEB = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A5713D0C21C484C100485DEB;
+					};
+				};
+			};
+			buildConfigurationList = A5713D0821C484C100485DEB /* Build configuration list for PBXProject "Qoperation" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A5713D0421C484C100485DEB;
+			productRefGroup = A5713D0E21C484C100485DEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5713D0C21C484C100485DEB /* Qoperation */,
+				A5713D2021C484C400485DEB /* QoperationTests */,
+				A5713D2B21C484C400485DEB /* QoperationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5713D0B21C484C100485DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5713D1B21C484C400485DEB /* LaunchScreen.storyboard in Resources */,
+				A5713D1821C484C400485DEB /* Assets.xcassets in Resources */,
+				A5713D1621C484C100485DEB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5713D1F21C484C400485DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5713D2A21C484C400485DEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A5713D4021C48A4300485DEB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n# Type a script or drag a script file from your workspace to insert its path.\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5713D0921C484C100485DEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5713D1321C484C100485DEB /* ViewController.swift in Sources */,
+				A5713D1121C484C100485DEB /* AppDelegate.swift in Sources */,
+				A5713D3F21C484DC00485DEB /* Oper.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5713D1D21C484C400485DEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5713D2621C484C400485DEB /* QoperationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5713D2821C484C400485DEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5713D3121C484C400485DEB /* QoperationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A5713D2321C484C400485DEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5713D0C21C484C100485DEB /* Qoperation */;
+			targetProxy = A5713D2221C484C400485DEB /* PBXContainerItemProxy */;
+		};
+		A5713D2E21C484C400485DEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A5713D0C21C484C100485DEB /* Qoperation */;
+			targetProxy = A5713D2D21C484C400485DEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A5713D1421C484C100485DEB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5713D1521C484C100485DEB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A5713D1921C484C400485DEB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5713D1A21C484C400485DEB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5713D3321C484C400485DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A5713D3421C484C400485DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5713D3621C484C400485DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWJCYGVG9Z;
+				INFOPLIST_FILE = Qoperation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cwxstat.rx.Qoperation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A5713D3721C484C400485DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWJCYGVG9Z;
+				INFOPLIST_FILE = Qoperation/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cwxstat.rx.Qoperation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A5713D3921C484C400485DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWJCYGVG9Z;
+				INFOPLIST_FILE = QoperationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cwxstat.rx.QoperationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qoperation.app/Qoperation";
+			};
+			name = Debug;
+		};
+		A5713D3A21C484C400485DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWJCYGVG9Z;
+				INFOPLIST_FILE = QoperationTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cwxstat.rx.QoperationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Qoperation.app/Qoperation";
+			};
+			name = Release;
+		};
+		A5713D3C21C484C400485DEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWJCYGVG9Z;
+				INFOPLIST_FILE = QoperationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cwxstat.rx.QoperationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Qoperation;
+			};
+			name = Debug;
+		};
+		A5713D3D21C484C400485DEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = UWJCYGVG9Z;
+				INFOPLIST_FILE = QoperationUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.cwxstat.rx.QoperationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Qoperation;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5713D0821C484C100485DEB /* Build configuration list for PBXProject "Qoperation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5713D3321C484C400485DEB /* Debug */,
+				A5713D3421C484C400485DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5713D3521C484C400485DEB /* Build configuration list for PBXNativeTarget "Qoperation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5713D3621C484C400485DEB /* Debug */,
+				A5713D3721C484C400485DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5713D3821C484C400485DEB /* Build configuration list for PBXNativeTarget "QoperationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5713D3921C484C400485DEB /* Debug */,
+				A5713D3A21C484C400485DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5713D3B21C484C400485DEB /* Build configuration list for PBXNativeTarget "QoperationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5713D3C21C484C400485DEB /* Debug */,
+				A5713D3D21C484C400485DEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5713D0521C484C100485DEB /* Project object */;
+}
