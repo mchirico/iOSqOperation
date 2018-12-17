@@ -9,6 +9,7 @@ protocol SeptaJSON {
   func parseString(data: String)
 }
 
+// Clean this up ... idea
 protocol ActionResultProtocol {
   var callActionRstatus: Bool { get set }
   
