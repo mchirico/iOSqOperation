@@ -142,7 +142,42 @@ https://www3.septa.org/hackathon/NextToArrive/?req1=Suburban%20Station&req2=Elki
     XCTAssert((time?.contains(find: ":"))!)
     
   }
-   
+  
+  // Was going to test here...
+  func testStationToStationResultR() {
+    
+    let expectation = self.expectation(description: "")
+    
+    let request = Request()
+    let url = """
+https://www3.septa.org/hackathon/NextToArrive/?req1=Suburban%20Station&req2=Elkins%20Park&req3=40
+"""
+    
+    func stationActionTest() -> Bool {
+      expectation.fulfill()
+      return true
+    }
+    
+    let stationAction = StationAction()
+    stationAction.callAfterDone = stationActionTest
+    
+    let sts = StationToStation()
+    sts.assignStationAction(stationAction: stationAction)
+    
+    request.assignAction(action: stationAction)
+    request.getURLAction(url: url)
+    
+    waitForExpectations(timeout: 15, handler: nil)
+    
+    sts.parseString(data: sts.urlResults)
+    let time = sts.records?.sts[0].orig_arrival_time
+    
+    XCTAssert((time?.contains(find: ":"))!)
+    
+  }
+  
+  
+  
   func testParse() {
     let request = Request()
     let url = "https://www3.septa.org/hackathon/Arrivals/Elkins%20Park"
