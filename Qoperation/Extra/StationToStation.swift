@@ -13,7 +13,7 @@ protocol SeptaJSON {
 protocol ActionResultProtocol {
   var callActionRstatus: Bool { get set }
   
-  func callActionR(input: String, completion:
+  func callActionR( input: String, completion:
     @escaping (_ result: String) -> Bool )
 }
 
@@ -108,6 +108,7 @@ class StationAction: ActionProtocol, ActionResultProtocol {
   var response: URLResponse?
   var error: Error?
   
+  // Not sure what I want to do with this...
   func callActionR(input: String, completion: @escaping (String) -> Bool) {
     if let sts = sts {
       sts.urlResults = currentResult

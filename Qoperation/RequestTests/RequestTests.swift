@@ -142,7 +142,7 @@ https://www3.septa.org/hackathon/NextToArrive/?req1=Suburban%20Station&req2=Elki
     XCTAssert((time?.contains(find: ":"))!)
     
   }
-  
+   
   func testParse() {
     let request = Request()
     let url = "https://www3.septa.org/hackathon/Arrivals/Elkins%20Park"
